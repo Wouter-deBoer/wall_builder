@@ -82,6 +82,8 @@ For the bonus exercise, I looked into different bonds, which require different a
   This bond alternates between rows of full length bricks and half length bricks. Therefore, we simply assume that we start with a row of full length bricks. Additionally, to fit the default wall format, we assume that we always start the row (seen from the last) with a half brick.
 - __Wild bond__
   
-  The wild bond is more challenging, as it introduces various constraints. This bond is not fully complete yet; in the code, you can find the checks for vertical alignment and for consequent half bricks. Introducing both checks seems to be impossible, therefore the vertical alignment check has been disabled for now.
+  The wild bond is more challenging, as it introduces various constraints. This bond is not fully complete yet; I noticed that this bond introduces a 3/4 brick; due to time constraints I was unable to implement this, as it would need rewriting of a good part of the code. Therefore, I could not implement the staggering pattern, as this is not possible without the 3/4th brick.
+
+  In the code, you can find the checks for vertical alignment and for consequent half bricks. When both conditions are applied, there appeared to be no valid outcome without using a 3/4th brick, therefore the vertical alignment check has been disabled for now.
   
-  I also noticed that this bond introduces a 3/4 brick; due to time constraints I was unable to implement this, as it would need rewriting of a good part of the code. Therefore, I could not implement the staggering pattern, as this is not possible without the 3/4th brick.
+  
